@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid bg-light">
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3">
+            <a class="navbar-brand" href="Signup.html">Joota.com</a>
+        </nav>
+        <!-- Navbar End -->
+        <br>
+        <br>
+              
+
+          <!-- Login Form -->
+          <div class="container">
+          <div class="row">
+            <div class="offset-sm-2"></div>
+
+            <div class="col-sm-8">
+              
+              <div class="alert bg-dark text-light" role="alert">
+                <h4 class="text-center">Please fill in this form to create an account.</h4>
+              </div>
+    
+              <form action="#">
+                
+              <div class="row">
+                <div class="form-group col-sm-6">
+                  <label for="firstname">First Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter your first name" id="firstname" required>
+                </div>
+
+                <div class="form-group col-sm-6">
+                  <label for="lastname">Last Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter your last name" id="lastname" required>
+                </div>
+              </div>
+                
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" placeholder="Enter your email" id="email" required>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-sm-6">
+                  <label for="password">Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter your password" id="password" required minlength="8">
+                </div>
+
+                <div class="form-group col-sm-6">
+                  <label for="re-password">Confirm Password:</label>
+                  <input type="password" class="form-control" placeholder="Enter your password again" id="re-password" required minlength="8">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" class="form-control" name="birthday">
+              </div>
+
+              <div class="form-check-inline form-group">
+                <label class="form-check-label"> Gender: </label>
+                  <input type="radio" class="form-check-input m-2" name="gender">Male            
+                  <input type="radio" class="form-check-input m-2" name="gender">Female
+                  <input type="radio" class="form-check-input m-2" name="gender">Other
+              </div>
+
+              <div class="form-check form-group">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">
+                  Accept all terms and conditions
+                </label>
+              </div>
+              <a href="Login.html" class="btn btn-success col-sm-12" role="button" >Signup</a>
+                <!-- <button type="submit" class="btn btn-success col-sm-12">Signup</button> -->
+                <div class="col-sm-6 p-2">Already have account? Click Here<a href="Login.html" class="text-success"> Login</a></div>
+
+              </form>
+            </div>
+
+
+          </div>
+          </div>
+
+
+         
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Stop Watch</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="controls">
+
+      <button type="button" onclick="start()" class="btn btn-primary">START</button>
+      <button type="button" onclick="pause()" class="btn btn-success">PAUSE</button>
+      <button type="button" onclick="stop()" class="btn btn-danger">RESET</button>
+      <button type="button" onclick="laps()" class="btn btn-info">LAPS</button>
+      <button type="button" onclick="resetLaps()" class="btn btn-outline-warning">RESET LAPS</button>
+
+    </div>
+
+    <div class="stopwatch" >00:00:00</div>
+    <ul class="laps"></ul>
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>

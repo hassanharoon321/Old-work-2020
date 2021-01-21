@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyATUFBHrTJo564phQc5EExhUFliztZUSIM",
+        authDomain: "mobilebazar-c5521.firebaseapp.com",
+        databaseURL: "https://mobilebazar-c5521.firebaseio.com",
+        projectId: "mobilebazar-c5521",
+        storageBucket: "mobilebazar-c5521.appspot.com",
+        messagingSenderId: "1013093502088",
+        appId: "1:1013093502088:web:bf232076d3f45f2dcd633d"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+
+    <input type="text" placeholder="name" id="name">
+    <br>
+    <input type="text" placeholder="roll" id="roll">
+    <br>
+    <button onclick="saveData()">Save Data</button>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

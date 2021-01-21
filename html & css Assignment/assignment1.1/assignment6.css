@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+.table{
+    border: 1px solid rgb(229,229,229);
+    text-align: center;
+    
+}
+
+tr > td{
+    border: 1px solid gray;
+}
+
+tr > th{
+    border: 1px solid gray;
+    color: white;
+    background-color: rgb(70,198,96);
+    border: 1px white !important;
+}
+
+.grey{
+    background-color: rgb(249,249,249);
+}

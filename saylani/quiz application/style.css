@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    background-color: darkblue;
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    font-size: large;
+    float: right;
+}

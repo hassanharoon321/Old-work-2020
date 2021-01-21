@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Firebase</title>
+
+    <style>
+      body{
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+      }
+      .todo{
+        margin-top: 50px;
+      }
+    </style>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyD7SBj_RbDerv9Xw8xMnhFL-z9z013ZxxA",
+    authDomain: "my-website-bd91a.firebaseapp.com",
+    databaseURL: "https://my-website-bd91a.firebaseio.com",
+    projectId: "my-website-bd91a",
+    storageBucket: "my-website-bd91a.appspot.com",
+    messagingSenderId: "64664949755",
+    appId: "1:64664949755:web:d1c6ab7ac6a69fe312715e"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+</head>
+<body>
+
+  <div class="todo">
+
+    <input type="text" placeholder="Enter to do" id="data">
+    <button onclick="addItems()">Add Items</button>
+    <button onclick="deleteAll()">Delete All</button>
+
+    <ul id="unorderlist">
+
+    </ul>
+  
+  </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

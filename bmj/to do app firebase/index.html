@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyAQKr9UXX7YQWnjYn8X3dIlldtFHjO6Nqw",
+          authDomain: "to-do-app-firebase-b6b22.firebaseapp.com",
+          databaseURL: "https://to-do-app-firebase-b6b22.firebaseio.com",
+          projectId: "to-do-app-firebase-b6b22",
+          storageBucket: "to-do-app-firebase-b6b22.appspot.com",
+          messagingSenderId: "132984900604",
+          appId: "1:132984900604:web:ff10c4a947c317d9ff8079"
+        };
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+<body>
+
+    
+    <!-- <div>
+
+      <input type="text" placeholder="name" id="name">
+      <br/>
+      <input type="text" placeholder="roll no" id="roll">
+
+      <button onclick="saveData()">Save Data</button>
+          
+    </div> -->
+  
+  
+  
+  
+  <input type="text" id="data" placeholder="Enter to do">
+
+    <button onclick="addItems()">Add Items</button>
+    <button onclick="deleteAll()">Delete All</button>
+
+    <ul id="unorderlist">
+
+    </ul>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background: #2d2d2d;
+    color:#f6f6f6;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.stopwatch{
+    font-size: 10em;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 2em;
+}
+
+.btn{
+    margin-left: 30px;
+    font-size: medium;
+    text-align: center;
+}
+.controls{
+    margin-right: 50px;
+}
