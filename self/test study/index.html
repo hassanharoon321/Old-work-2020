@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .expand2{
+            font-size: 100px;
+        }
+        .hidden{
+            visibility: hidden;
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <!-- chp # 45 events link -->
+
+    <a href="#" onClick="alert('Hi');">Click</a>
+
+    <a href="JavaScript:void(0)" onClick="alert('Hi');">Click2</a>
+
+    <a href="JavaScript:void(0)" onClick="var greet='hi'; alert(greet);">Click</a>
+
+    <a href="JavaScript:void(0)" onClick="alert('Hi');">Click</a> -->
+
+    <!-- chp # 46 events buttons -->
+
+    <input type="button" value="Click" onClick="alert('Hello world!');">
+
+    <!-- chp # 47 events mouse -->
+
+    <img src="https://i.insider.com/5caf55c365c071260e2b6b36?width=750&format=jpeg&auto=webp" onMouseover="src='https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg'">
+
+    <h1 onMouseover="alert('Be sure to get your shopping done today.');">World Ends Tomorrow</h1>
+    
+    <!-- <a href="index.html" onMouseover="this.style.color='green';">Home Page</a> --> -->
+
+
+    <p id="loris" onMouseover="expand();">Slow Loris: Mouse over for more info</p>
+    
+    <img src="https://i.insider.com/5caf55c365c071260e2b6b36?width=750&format=jpeg&auto=webp" onMouseover="src='https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg'" onMouseout="src='https://i.insider.com/5caf55c365c071260e2b6b36?width=750&format=jpeg&auto=webp'">
+
+    <!-- chp # 48 events fields -->
+
+    Email:<br>
+    <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';">
+
+    Email:<br>
+    <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';"
+    onBlur="this.style.backgroundColor='red';"> -->
+    
+    <!-- chp # 49 Reading field vlaues -->
+    
+    <!-- <form onSubmit="checkAddress('email');">
+        Email:
+        <input type="text" id="email">
+        <input type="submit" value="Submit">
+    </form> -->
+
+    <!-- chp # 50 Setting field vlaues -->
+
+    <!-- <form>
+        ZIP:<br>
+        <input type="text" id="zip" onBlur="fillCity();"><br>
+        City:<br>
+        <input type="text" id="city">
+    </form> -->
+
+    <!-- chp # 51 Reading & Setting Paragraph Text -->
+
+    <!-- <p id="lorisList">
+        Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+        <a href="javascript:void(0);" onClick="placeAList();"><em>Click for more.</em></a>
+    </p> -->
+
+    <!-- chp # 52 Manipulating Images & Text -->
+
+    <!-- <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780" id="ugly" onClick="makeInvisible();">
+    
+     chp # 53 Swapping Images -->
+    
+    <!-- <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780" id="before" onMouseover="swapPic();"> -->
+    
+    <!-- <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?w=780" id="before" onMouseover="swapPic(id,'after-pic.jpg');"> -->
+     -->
+    <!-- chp # 56 Target all elements by tag name
+
+    <p>This bed is too small.</p>
+    <p>This bed is too big.</p>
+    <p>This bed is just right.</p>
+    
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

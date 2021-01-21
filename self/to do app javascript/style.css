@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-image: url("images/back.jpg");
+}
+
+.back{
+    height: 700px;
+    width: 600px;
+    background-color:lightslategray;
+    margin: auto;
+}
+
+.back input {
+    
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.back button{
+    margin-top: 50px;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 12px 28px;
+    font-size: 12px;
+}
+
+.back ul{
+    margin: 0px;
+}

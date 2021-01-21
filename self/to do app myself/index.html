@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="alert alert-secondary nav" role="alert">
+      To Do App
+    </div>
+
+    <div>
+
+      <input type="text" class="form-control data" placeholder="Enter To Do" id="gettodo">
+
+      <button type="button" class="btn btn-primary button_style" onclick="addItems()">ADD ITEMS</button>
+    
+      <button type="button" class="btn btn-danger button_style_two" onclick="deleteAll()">DELETE ALL</button>
+
+    </div>
+
+    <div>
+      <ul id="get-list">
+
+      </ul>
+    </div>
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>

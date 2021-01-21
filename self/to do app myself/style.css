@@ -1,0 +1,45 @@
+body{
+    background-color: #EEEEEE;
+}
+.nav{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.data{
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button_style{
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.type-non{
+    list-style-type: none;
+}
+
+.button_style_two{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.deleteBtn-style{
+    margin-left: 700px;
+    margin-top: 20px;
+    
+}
+
+.editBtn-style{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+ul li{
+    margin-left: 200px;
+}
+

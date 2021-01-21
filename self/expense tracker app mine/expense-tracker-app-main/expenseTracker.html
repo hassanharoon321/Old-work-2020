@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="alert alert-dark" role="alert">
+        Expense Tracker
+      </div>
+
+      <br/>  
+    <input type="date" placeholder="Add Date" id="date" class="set-date"><br/>
+    <input type="number" id="income" class="middle-input">
+    
+    <button onclick="addIncome()" class="btn btn-secondary middle-button" type="button">Add Income</button>
+
+    <h4 id="currentIncome" class="set-date"></h4>
+    
+    <div id="expenseForm">
+
+
+        <label class="expense-input"> 
+            Expense: <br />
+            <input type="number" id="expense" placeholder="Add Expense"/>
+        </label>
+        
+        <label>
+            Category: <br />
+            <select id="category">
+                <option value="food">Food</option>
+                <option value="bike">Bike</option>
+                <option value="rent">Rent</option>
+            </select>
+        </label>
+        
+        <button onclick="addExpense()" class="btn btn-outline-primary">Add Expense</button>
+
+        
+        <hr/>
+        
+        <label class="set-date2">
+            <h2>Show Expense:</h2>
+            <select id="showExpense" onchange="showFilterExpense()">
+                <option value="all">All</option>
+                <option value="food">Food</option>
+                <option value="bike">Bike</option>
+                <option value="rent">Rent</option>
+            </select>
+        </label>
+
+    </div>
+    
+    <h5 class="set-transaction">Transactions</h5>
+    
+    <ul id="expenses" class="set-date2">
+    </ul>
+
+    <script src="app.js">
+        
+    </script>
+</body>
+
+</html>

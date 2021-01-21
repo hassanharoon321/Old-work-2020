@@ -1,0 +1,46 @@
+body{
+    background-color: #F2F3F4;
+}
+
+.nav-text{
+    font-size: x-large;
+}
+
+.questions-style{
+   margin-top: 150px;
+   text-decoration-color: black;
+}
+
+.radio-style{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.radio-style1{
+    margin-left: 80px;
+}
+
+.btn-right{
+    margin-left: 1150px;
+}
+
+.one{
+    height: 600px;
+}
+
+.two{
+    height: 650px;
+}
+
+.three{
+    height: 700px;
+}
+
+.four{
+    height: 700px;
+}
+
+.questions-style2{
+    margin-top: 200px;
+    text-decoration-color: black;
+ }

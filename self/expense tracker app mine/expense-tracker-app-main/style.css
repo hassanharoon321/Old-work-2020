@@ -1,0 +1,40 @@
+body{
+    background-color: #E5E7E9;
+}
+.middle-input{
+    margin-left: 300px;    
+    height: 40px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.middle-button{
+    margin-left: 20px;  
+    height: 40px;
+    width: 150px;  
+}
+
+.expense-input{
+    margin-left: 300px; 
+}
+
+.set-date{
+    margin-left: 100px;
+}
+
+.set-date2{
+    margin-left: 580px;
+}
+
+.set-date2 select{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.set-transaction{
+    text-align: center;
+}
+
+.one{
+    margin-top: 5px;
+}
